@@ -26,7 +26,7 @@ import (
 	"strings"
 )
 
-const InstallerUrl = "https://maven.minecraftforge.net/net/minecraftforge/forge/${version}/forge-${version}-installer.jar"
+const InstallerUrl = "https://files.minecraftforge.net/net/minecraftforge/forge/${version}/forge-${version}-installer.jar"
 const PromoUrl = "https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json"
 
 type ForgeDl struct {
